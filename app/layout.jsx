@@ -1,13 +1,12 @@
 import React from "react";
+import "@/assets/styles/global.css";
 
-const layout = ({ children }) => {
+const MainLayout = ({ children }) => {
   return (
     <html lang="en">
-      <body>
-        <div>{children}</div>
-      </body>
+      <body>{children}</body>
     </html>
   );
 };
 
-export default layout;
+export default MainLayout;
