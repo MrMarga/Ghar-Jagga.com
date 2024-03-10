@@ -1,8 +1,7 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import "@/assets/styles/global.css";
-import Hero from "@/components/Hero";
-import InfoBoxes from "@/components/InfoBoxes";
+import Footer from "@/components/Footer";
 
 export const metadata = {
   title: "Ghar-Jagga.com",
@@ -14,9 +13,8 @@ const MainLayout = ({ children }) => {
     <html lang="en">
       <body>
         <Navbar />
-        <Hero />
-        <InfoBoxes />
         <main>{children}</main>
+        <Footer />
       </body>
     </html>
   );

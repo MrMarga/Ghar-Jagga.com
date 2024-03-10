@@ -1,9 +1,10 @@
+import { useParams } from "next/navigation";
 import React from "react";
 
 const page = () => {
   return (
     <div>
-      <h1>page1</h1>
+      <h1>page</h1>
     </div>
   );
 };
