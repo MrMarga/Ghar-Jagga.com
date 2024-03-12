@@ -5,7 +5,11 @@ import { FaExclamationTriangle } from "react-icons/fa";
 const NotFoundPage = () => {
   return (
     <section className="bg-blue-50 min-h-screen flex-grow">
+<<<<<<< HEAD
       <div className="container m-auto max-w-2xl py-24">
+=======
+      <div className="container max-w-2xl py-2">
+>>>>>>> 73aa62ac873a2db3f09933afd5e9e423506db572
         <div className="bg-white px-6 py-24 mb-4 shadow-md rounded-md border m-4 md:m-0">
           <div className="flex justify-center">
             <FaExclamationTriangle className="text-8xl text-yellow-400"></FaExclamationTriangle>
