@@ -6,12 +6,14 @@ import HomeFeatured from "@/components/HomeFeatured";
 
 const HomePage = () => {
   return (
-    <div>
-      <Hero />
-      <InfoBoxes />
-      <HomeFeatured />
-      <HomeProperties />
-    </div>
+    <>
+      <div>
+        <Hero />
+        <InfoBoxes />
+        <HomeFeatured />
+        <HomeProperties />
+      </div>
+    </>
   );
 };
 
