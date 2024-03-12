@@ -5,7 +5,11 @@ import { FaExclamationTriangle } from "react-icons/fa";
 const NotFoundPage = () => {
   return (
     <section className="bg-blue-50 min-h-screen flex-grow">
+<<<<<<< HEAD
       <div className="container m-auto max-w-2xl py-24">
+=======
+      <div className="container m-auto max-w-2xl py-23">
+>>>>>>> parent of 44647c4 (Revert "This reverts commit e5ee81c5ace1b13d7223e9d7a0059295234a2592.")
         <div className="bg-white px-6 py-24 mb-4 shadow-md rounded-md border m-4 md:m-0">
           <div className="flex justify-center">
             <FaExclamationTriangle className="text-8xl text-yellow-400"></FaExclamationTriangle>
